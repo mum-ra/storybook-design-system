@@ -1,5 +1,5 @@
 {
-  "name": "learnstorybook-design-system-template",
+  "name": "master-design-system-template",
   "version": "0.1.0",
   "private": true,
   "main": "dist/cjs/index.js",
@@ -18,6 +18,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
+    "test-storybook": "test-storybook",
     "chromatic": "npx chromatic --project-token=chpt_20606b5402a9e41"
   },
   "devDependencies": {
@@ -41,6 +42,7 @@
     "@storybook/react": "^8.2.9",
     "@storybook/react-vite": "^8.2.9",
     "@storybook/test": "^8.2.9",
+    "@storybook/test-runner": "^0.19.1",
     "@vitejs/plugin-react": "^3.1.0",
     "auto": "^10.3.0",
     "boxen": "^5.0.1",
